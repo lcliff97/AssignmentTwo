@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+}
+
+.mobiletoggle {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .mobiletoggle {
+    display: block;
+  }
+}
