@@ -32,15 +32,15 @@ function createThumbnails() {
 }
 
 function createBigImage(imgDetails) {
-  displayContainer.innerHTML = "";
+  displayContainer.innerHTML = "images/thailand.jpg";
 
-  const bigImage = document.createElement("img");
+  const bigImage = document.createElement("images.thailand.jpg");
   bigImage.src = imgDetails.src;
   bigImage.alt = imgDetails.alt;
-  bigImage.classList.add("big-image");
+  bigImage.classList.add("images.thailand.jpg");
 
   displayContainer.appendChild(bigImage);
 }
 
 createThumbnails();
-createBigImages();
+createBigImage();
