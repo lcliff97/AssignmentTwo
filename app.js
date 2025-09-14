@@ -56,16 +56,16 @@ function createBigImage() {
   displayContainer.appendChild(bigImage);
 }
 
-function createBigImage() {
+function createBigImage(imgDetails) {
   displayContainer.innerHTML = "";
 
   const bigImage = document.createElement("img");
-  bigImage.src = "images/korea.jpg";
-  bigImage.alt = "Bukchon Hanok Village downtown Seoul";
+  bigImage.src = imgDetails.src;
+  bigImage.alt = imgDetails.alt;
   bigImage.classList.add("big-image");
 
   displayContainer.appendChild(bigImage);
 }
 
 createThumbnails();
-createBigImage();
+createBigImage(images[0]);

@@ -27,6 +27,5 @@ body {
 img.big-image {
   height: auto;
   width: 100vw;
-  max-width: 800px;
   display: block;
 }
