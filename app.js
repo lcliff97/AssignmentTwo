@@ -41,3 +41,6 @@ function createBigImage(imgDetails) {
 
   displayContainer.appendChild(bigImage);
 }
+
+createThumbnails();
+createBigImages();
