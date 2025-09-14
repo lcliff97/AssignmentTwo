@@ -24,10 +24,9 @@ body {
   align-items: center;
 }
 
-.bigImage {
+img.big-image {
   height: auto;
-  width: 100px;
+  width: 100vw;
   max-width: 800px;
-  object-fit: cover;
-  overflow: hidden;
+  display: block;
 }
