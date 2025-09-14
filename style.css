@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 5px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+}
+
+.displayContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
