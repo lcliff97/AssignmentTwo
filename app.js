@@ -31,16 +31,15 @@ function createThumbnails() {
   });
 }
 
-function createBigImage(imgDetails) {
-  displayContainer.innerHTML = "images/thailand.jpg";
+function createBigImage() {
+  displayContainer.innerHTML = "";
 
-  const bigImage = document.createElement("images.thailand.jpg");
-  bigImage.src = imgDetails.src;
-  bigImage.alt = imgDetails.alt;
-  bigImage.classList.add("images.thailand.jpg");
+  const bigImage = document.createElement("img");
+  bigImage.src = "images/thailand.jpg";
+  bigImage.alt = "Monasteries on a Thai hillside.";
+  bigImage.classList.add("big-image");
 
   displayContainer.appendChild(bigImage);
 }
 
 createThumbnails();
-createBigImage();
