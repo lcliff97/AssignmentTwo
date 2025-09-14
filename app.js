@@ -43,3 +43,4 @@ function createBigImage() {
 }
 
 createThumbnails();
+createBigImage();
